@@ -14,6 +14,10 @@
 		46E4BF14292151E000133532 /* test_url_connectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4BF13292151E000133532 /* test_url_connectTests.swift */; };
 		46E4BF1E292151E000133532 /* test_url_connectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4BF1D292151E000133532 /* test_url_connectUITests.swift */; };
 		46E4BF20292151E000133532 /* test_url_connectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4BF1F292151E000133532 /* test_url_connectUITestsLaunchTests.swift */; };
+		46E4BF2E2921531B00133532 /* Intraday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4BF2D2921531B00133532 /* Intraday.swift */; };
+		46E4BF342921548000133532 /* FugleMetaLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4BF332921548000133532 /* FugleMetaLoader.swift */; };
+		46E4BF382921600900133532 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4BF362921600900133532 /* Info.swift */; };
+		46E4BF3B2921602800133532 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4BF3A2921602800133532 /* Meta.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		46E4BF19292151E000133532 /* test_url_connectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_url_connectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E4BF1D292151E000133532 /* test_url_connectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_url_connectUITests.swift; sourceTree = "<group>"; };
 		46E4BF1F292151E000133532 /* test_url_connectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_url_connectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		46E4BF2D2921531B00133532 /* Intraday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intraday.swift; sourceTree = "<group>"; };
+		46E4BF332921548000133532 /* FugleMetaLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FugleMetaLoader.swift; sourceTree = "<group>"; };
+		46E4BF362921600900133532 /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		46E4BF3A2921602800133532 /* Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,7 @@
 		46E4BF00292151DF00133532 /* test_url_connect */ = {
 			isa = PBXGroup;
 			children = (
+				46E4BF352921588D00133532 /* Source */,
 				46E4BF01292151DF00133532 /* test_url_connectApp.swift */,
 				46E4BF03292151DF00133532 /* ContentView.swift */,
 				46E4BF05292151E000133532 /* Assets.xcassets */,
@@ -127,6 +136,25 @@
 				46E4BF1F292151E000133532 /* test_url_connectUITestsLaunchTests.swift */,
 			);
 			path = test_url_connectUITests;
+			sourceTree = "<group>";
+		};
+		46E4BF2C292152BE00133532 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46E4BF3A2921602800133532 /* Meta.swift */,
+				46E4BF362921600900133532 /* Info.swift */,
+				46E4BF2D2921531B00133532 /* Intraday.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46E4BF352921588D00133532 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				46E4BF2C292152BE00133532 /* Models */,
+				46E4BF332921548000133532 /* FugleMetaLoader.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				46E4BF04292151DF00133532 /* ContentView.swift in Sources */,
+				46E4BF2E2921531B00133532 /* Intraday.swift in Sources */,
+				46E4BF3B2921602800133532 /* Meta.swift in Sources */,
 				46E4BF02292151DF00133532 /* test_url_connectApp.swift in Sources */,
+				46E4BF382921600900133532 /* Info.swift in Sources */,
+				46E4BF342921548000133532 /* FugleMetaLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,12 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            Button("Hello World!") {
+                print("test");
+                FugleMetaLoader().load(token: "demo", symbolId: "2330") { meta in
+                    print("meta: \(meta)")
+                }
+            }
         }
         .padding()
     }
